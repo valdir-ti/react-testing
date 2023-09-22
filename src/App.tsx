@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Application } from "./components/application/application";
 
 function App() {
   return (
     <div className="App">
-      <h2>React Testing</h2>
+      <Application />;
     </div>
   );
 }
