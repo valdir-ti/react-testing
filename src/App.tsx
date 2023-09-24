@@ -2,12 +2,12 @@ import "./App.css";
 import { Application } from "./components/application/application";
 import { Skills } from "./components/skills/skills";
 import { Counter } from "./components/counter/counter";
-import { AppProvider } from "./components/provider/app-provider";
+import { AppProviders } from "./components/providers/app-providers";
 import { MuiMode } from "./components/mui/mui-mode";
 
 function App() {
   return (
-    <AppProvider>
+    <AppProviders>
       <div className="App">
         <MuiMode />
         <br />
@@ -17,7 +17,7 @@ function App() {
         <br />
         <Skills skills={["HTML", "CSS", "JavaScript"]} />
       </div>
-    </AppProvider>
+    </AppProviders>
   );
 }
 

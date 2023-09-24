@@ -7,7 +7,7 @@ const theme = createTheme({
   },
 });
 
-export const AppProvider = ({ children }: { children: React.ReactNode }) => {
+export const AppProviders = ({ children }: { children: React.ReactNode }) => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
