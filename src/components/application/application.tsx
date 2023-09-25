@@ -15,7 +15,7 @@ export const Application = () => {
             id="name"
             placeholder="fullName"
             value="Vishwas"
-            onChange={() => {}}
+            onChange={() => { }}
           />
         </div>
         <div>
@@ -39,7 +39,7 @@ export const Application = () => {
             conditions
           </label>
         </div>
-        <button>Submit</button>
+        <button disabled>Submit</button>
       </form>
     </>
   );
